@@ -3,6 +3,7 @@
 import { motion } from "framer-motion"
 import { useInView } from "react-intersection-observer"
 import { Github, ExternalLink, Star } from "lucide-react"
+import Image from "next/image"
 
 type Project = {
   id: number
@@ -23,7 +24,7 @@ const projects: Project[] = [
     description:
       "Enterprise-grade CRM platform supporting multiple organizations.",
     image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=60",
+      "/images/multi-tenant-crm.png",
     tags: ["Next.js", "Django", "PostgreSQL"],
     github: "https://github.com/shoaibsiraj-official/Crm",
     demo: "https://demo.example.com",
@@ -36,7 +37,7 @@ const projects: Project[] = [
     description:
       " automation platform with Django.",
     image:
-      "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&auto=format&fit=crop&q=60",
+      "/images/automation-with-django.png",
     tags: ["Next.js", "Python", "PostgreSQL"],
     github: "https://github.com/shoaibsiraj-official/automate_with_django",
     demo: "https://demo.example.com",
@@ -49,7 +50,7 @@ const projects: Project[] = [
     description:
       "Platform for building AI powered SaaS apps with automation workflows.",
     image:
-      "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=800&auto=format&fit=crop&q=60",
+      "/images/ai-saas-builder.png",
     tags: ["Next.js", "OpenAI", "Django"],
     github: "https://github.com",
     demo: "https://demo.example.com",
@@ -79,9 +80,11 @@ function ProjectCard({ project, index }: CardProps) {
     >
       {/* Image */}
       <div className="h-48 overflow-hidden">
-        <img
-          
+        <Image
+          src={project.image}
           alt={project.title}
+          width={800}
+          height={400}
           className="w-full h-full object-cover"
         />
       </div>
@@ -89,8 +92,8 @@ function ProjectCard({ project, index }: CardProps) {
       {/* Content */}
       <div className="p-6 space-y-4">
 
-        <div className="flex items-center justify-between">
-          <h3 className="text-xl font-bold">
+        <div className="flex items-center justify-between text-blue-600">
+          <h3 className="text-xl font-bold text-black">
             {project.title}
           </h3>
 
