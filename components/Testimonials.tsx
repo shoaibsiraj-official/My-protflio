@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 /* eslint-disable react/no-unescaped-entities */
 'use client'
+=======
+'use client';
+>>>>>>> 1d73bbeb735ea1ffd0ea938015413cbf03c8b92a
 
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
@@ -11,7 +15,11 @@ const testimonials = [
     role: 'CEO, GrowthStack',
     avatar: '👩‍💼',
     rating: 5,
+<<<<<<< HEAD
     text: 'Shoaib built our entire SaaS platform from scratch in 3 months. The multi-tenant architecture is rock solid, performance is stellar, and the code quality is exceptional. 10/10 would work with again.',
+=======
+    text: 'Alex built our entire SaaS platform from scratch in 3 months. The multi-tenant architecture is rock solid, performance is stellar, and the code quality is exceptional. 10/10 would work with again.',
+>>>>>>> 1d73bbeb735ea1ffd0ea938015413cbf03c8b92a
     color: 'from-blue-500/10 to-cyan-500/10',
     border: 'border-blue-500/20',
   },
@@ -20,7 +28,11 @@ const testimonials = [
     role: 'CTO, MedConnect',
     avatar: '👨‍💻',
     rating: 5,
+<<<<<<< HEAD
     text: 'Our telemedicine platform handles thousands of daily consultations thanks to Shoaib\'s expertise. The WebRTC implementation and HIPAA compliance were handled flawlessly. Truly a world-class developer.',
+=======
+    text: 'Our telemedicine platform handles thousands of daily consultations thanks to Alex\'s expertise. The WebRTC implementation and HIPAA compliance were handled flawlessly. Truly a world-class developer.',
+>>>>>>> 1d73bbeb735ea1ffd0ea938015413cbf03c8b92a
     color: 'from-emerald-500/10 to-teal-500/10',
     border: 'border-emerald-500/20',
   },
@@ -29,7 +41,11 @@ const testimonials = [
     role: 'Founder, AutoGram',
     avatar: '👩‍🚀',
     rating: 5,
+<<<<<<< HEAD
     text: 'The Instagram automation SaaS Shoaib built for us generates $40k MRR. His Django + Celery architecture handles millions of API calls daily without breaking a sweat. Absolute genius.',
+=======
+    text: 'The Instagram automation SaaS Alex built for us generates $40k MRR. His Django + Celery architecture handles millions of API calls daily without breaking a sweat. Absolute genius.',
+>>>>>>> 1d73bbeb735ea1ffd0ea938015413cbf03c8b92a
     color: 'from-pink-500/10 to-rose-500/10',
     border: 'border-pink-500/20',
   },

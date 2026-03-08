@@ -15,6 +15,10 @@
     "plugins": [{ "name": "next" }],
     "paths": { "@/*": ["./*"] }
   },
+<<<<<<< HEAD
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/About.jsx", "components/Contact.tsx", "components/Experience.tsx", "components/Footer.jsx", "components/Hero.jsx", "components/Navbar.tsx", "components/Projects.tsx", "components/Skills.jsx", "components/Testimonials.tsx", "components/ThemeProvider.tsx"],
+=======
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+>>>>>>> 1d73bbeb735ea1ffd0ea938015413cbf03c8b92a
   "exclude": ["node_modules"]
 }

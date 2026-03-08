@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 /* eslint-disable react/no-unescaped-entities */
 'use client'
+=======
+'use client';
+>>>>>>> 1d73bbeb735ea1ffd0ea938015413cbf03c8b92a
 
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
@@ -7,8 +11,13 @@ import { Briefcase, GraduationCap, Award, Rocket } from 'lucide-react';
 
 const timeline = [
   {
+<<<<<<< HEAD
     year: '2025 — Present',
     title: ' Full Stack Developer',
+=======
+    year: '2024 — Present',
+    title: 'Senior Full Stack Developer',
+>>>>>>> 1d73bbeb735ea1ffd0ea938015413cbf03c8b92a
     company: 'Freelance & Consulting',
     icon: Briefcase,
     color: 'text-brand-500',
@@ -17,6 +26,42 @@ const timeline = [
     description: 'Building scalable SaaS products for international clients. Led development of multi-tenant CRM, AI automation tools, and telemedicine platforms serving thousands of users.',
     highlights: ['Next.js 14 App Router', 'Django REST APIs', 'Multi-tenant architecture', 'AI/ML integration'],
   },
+<<<<<<< HEAD
+=======
+  {
+    year: '2022 — 2024',
+    title: 'Full Stack Developer',
+    company: 'TechStartup Inc.',
+    icon: Rocket,
+    color: 'text-accent-500',
+    bg: 'bg-accent-500/10',
+    border: 'border-accent-500/30',
+    description: 'Built and shipped 8 production applications. Architected RESTful APIs serving 50k+ daily requests, improved database query performance by 60%, and introduced CI/CD pipelines.',
+    highlights: ['React & Next.js', 'Python/Django', 'PostgreSQL optimization', 'Docker & CI/CD'],
+  },
+  {
+    year: '2021 — 2022',
+    title: 'Junior Web Developer',
+    company: 'Digital Agency',
+    icon: GraduationCap,
+    color: 'text-emerald-500',
+    bg: 'bg-emerald-500/10',
+    border: 'border-emerald-500/30',
+    description: 'Developed client websites and web apps. Gained hands-on experience with React, responsive design, and backend integration. Delivered 15+ client projects on time.',
+    highlights: ['React fundamentals', 'REST API integration', 'Responsive design', 'Git workflow'],
+  },
+  {
+    year: '2020 — 2021',
+    title: 'CS Degree & Self-Learning',
+    company: 'University + Bootcamp',
+    icon: Award,
+    color: 'text-amber-500',
+    bg: 'bg-amber-500/10',
+    border: 'border-amber-500/30',
+    description: 'Completed Computer Science fundamentals, built 10+ portfolio projects, earned certifications in Full Stack Development. This is where the journey began.',
+    highlights: ['Data structures', 'Algorithms', 'Full stack fundamentals', 'Portfolio projects'],
+  },
+>>>>>>> 1d73bbeb735ea1ffd0ea938015413cbf03c8b92a
 ];
 
 function TimelineItem({ item, index, isLast }: { item: typeof timeline[0]; index: number; isLast: boolean }) {
