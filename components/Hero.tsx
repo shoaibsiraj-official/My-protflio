@@ -52,7 +52,7 @@ export default function Hero() {
             {/* Name */}
             <motion.h1 variants={item} className="font-display text-5xl sm:text-6xl lg:text-7xl font-black leading-[1.05] text-[var(--text-primary)]">
               Hi, I'm{' '}
-              <span className="gradient-text">Alex Morgan</span>
+              <span className="gradient-text">Shoaib Siraj</span>
             </motion.h1>
 
             {/* Title */}

@@ -40,7 +40,7 @@ export default function Footer() {
                 <Code2 size={16} className="text-white" />
               </div>
               <span className="font-display font-bold text-xl text-[var(--text-primary)]">
-                Alex<span className="gradient-text">Morgan</span>
+                Shoaib<span className="gradient-text">Siraj</span>
               </span>
             </div>
             <p className="text-sm text-[var(--text-secondary)] leading-relaxed max-w-sm">
